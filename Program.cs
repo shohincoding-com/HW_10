@@ -4,10 +4,16 @@ namespace HW_10
 {
     class Program
     {
-        static void Main(string[] args)
 
+
+         static void Main(string[] args)
+         {
+
+         
         ///////////////Task_2///////////////////
-        {
+
+
+        /*{
             string ExpAccess = "shohin";
             string ProAccess = "guest";
             
@@ -83,6 +89,83 @@ namespace HW_10
             Console.WriteLine("Документ сохранен в новом формате");
         }
 
-        //////////////EndTask_2///////////////////
+        
+    } */
+    //////////////EndTask_2///////////////////
+    
+    //////////////Task_3///////////////////
+    
+    Console.WriteLine("Дайте пожалуйста команду!\n1. Play\n2. Paus\n3. Stop\n4. Record");
+    var userCmd = Console.ReadLine();
+
+    
     }
+
+    }
+
+    interface IPlayable
+    {
+        void Play()
+        {
+
+        }
+
+        void Pause()
+        {
+            
+        }
+
+        void Stop()
+        {
+            
+        }
+    }
+
+    interface IRecodable
+    {
+
+        void Record()
+        {
+
+        }
+
+        void Pause()
+        {
+            
+        }
+
+        void Stop()
+        {
+            
+        }
+
+    }
+
+    class Player : IPlayable, IRecodable
+    {
+
+        
+        public void Play()
+        {
+            Console.WriteLine("PLAY - current note");
+        }
+        
+        
+
+        public void Pause()
+        {
+            Console.WriteLine("PAUSE - current note");
+        }
+
+        public void Stop()
+        {
+            Console.WriteLine("STOP - current note");
+        }
+        public void Record()
+        {
+            Console.WriteLine("RECORD - current note");
+        }
+    }
+    //////////////EndTask_3///////////////////
 }
+
