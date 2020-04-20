@@ -95,9 +95,42 @@ namespace HW_10
     
     //////////////Task_3///////////////////
     
-    Console.WriteLine("Дайте пожалуйста команду!\n1. Play\n2. Paus\n3. Stop\n4. Record");
-    var userCmd = Console.ReadLine();
+        Console.WriteLine("Дайте пожалуйста команду!\n1. Play\n2. Paus\n3. Stop\n4. Record");
+        var userCmd = Console.ReadLine();
 
+        Player cmd;
+        if(userCmd == "1")
+        {
+            cmd = new Player();
+            cmd.Play(); 
+            
+        }
+
+        else if(userCmd == "2")
+        {
+            cmd = new Player();
+            cmd.Pause(); 
+            
+        }
+
+        else if(userCmd == "3")
+        {
+            cmd = new Player();
+            cmd.Stop(); 
+            
+        }
+
+        else if(userCmd == "4")
+        {
+            cmd = new Player();
+            cmd.Record(); 
+            
+        }
+        else{
+            Console.WriteLine("Вы выбрали неправилную команду!");
+        }
+
+    }
     
     }
 
@@ -147,25 +180,25 @@ namespace HW_10
         
         public void Play()
         {
-            Console.WriteLine("PLAY - current note");
+            Console.WriteLine("PLAY - current note.mp3");
         }
         
         
 
         public void Pause()
         {
-            Console.WriteLine("PAUSE - current note");
+            Console.WriteLine("PAUSE - current note.mp3");
         }
 
         public void Stop()
         {
-            Console.WriteLine("STOP - current note");
+            Console.WriteLine("STOP - current note.mp3");
         }
         public void Record()
         {
-            Console.WriteLine("RECORD - current note");
+            Console.WriteLine("RECORD - current note.mp3");
         }
     }
     //////////////EndTask_3///////////////////
-}
+
 
