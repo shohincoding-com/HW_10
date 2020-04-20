@@ -1,0 +1,11 @@
+C:\Users\SHOHIN\Desktop\c#_projects\HW_10\bin\Debug\netcoreapp3.1\HW_10.exe
+C:\Users\SHOHIN\Desktop\c#_projects\HW_10\bin\Debug\netcoreapp3.1\HW_10.deps.json
+C:\Users\SHOHIN\Desktop\c#_projects\HW_10\bin\Debug\netcoreapp3.1\HW_10.runtimeconfig.json
+C:\Users\SHOHIN\Desktop\c#_projects\HW_10\bin\Debug\netcoreapp3.1\HW_10.runtimeconfig.dev.json
+C:\Users\SHOHIN\Desktop\c#_projects\HW_10\bin\Debug\netcoreapp3.1\HW_10.dll
+C:\Users\SHOHIN\Desktop\c#_projects\HW_10\bin\Debug\netcoreapp3.1\HW_10.pdb
+C:\Users\SHOHIN\Desktop\c#_projects\HW_10\obj\Debug\netcoreapp3.1\HW_10.csprojAssemblyReference.cache
+C:\Users\SHOHIN\Desktop\c#_projects\HW_10\obj\Debug\netcoreapp3.1\HW_10.AssemblyInfoInputs.cache
+C:\Users\SHOHIN\Desktop\c#_projects\HW_10\obj\Debug\netcoreapp3.1\HW_10.AssemblyInfo.cs
+C:\Users\SHOHIN\Desktop\c#_projects\HW_10\obj\Debug\netcoreapp3.1\HW_10.dll
+C:\Users\SHOHIN\Desktop\c#_projects\HW_10\obj\Debug\netcoreapp3.1\HW_10.pdb
