@@ -5,8 +5,44 @@ namespace HW_10
     class Program
     {
         static void Main(string[] args)
+
+        ///////////////Task_2///////////////////
         {
-            Console.WriteLine("Hello World!");
+            string ExpAccess = "shohin";
+            string ProAccess = "guest";
+            
+            Console.WriteLine("Введите ключ доступа!");
+            var KeyAccess = Console.ReadLine();
+
+            DocumentWorker worker;
+            if(KeyAccess == ExpAccess)
+            {
+                worker = new ExpertDocumentWorker();
+            }
+            else if(KeyAccess == ProAccess)
+            {
+                worker = new ProDocumentWorker();
+            }
+            else
+            {
+                worker = new DocumentWorker();
+            }
+
+            Console.WriteLine("Выбирайте нужную комманду!\nо/открыт\nр/редактировать\nс/сохранить");
+            var command = Console.ReadLine();
+
+            if(command == "о")
+            {
+                worker.OpenDoc();
+            }
+            else if(command == "р")
+            {
+                worker.EditDoc();
+            }
+            else if(command == "с")
+            {
+                worker.SaveDoc();
+            }
         }
     }
 
@@ -46,5 +82,7 @@ namespace HW_10
         {
             Console.WriteLine("Документ сохранен в новом формате");
         }
+
+        //////////////EndTask_2///////////////////
     }
 }
